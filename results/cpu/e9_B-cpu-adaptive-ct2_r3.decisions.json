@@ -1,0 +1,44 @@
+[
+  {
+    "timestamp": "2026-10-04T19:08:01.721430+00:00",
+    "previous_device": "cpu",
+    "previous_compute_type": "fp32",
+    "new_device": "cpu",
+    "new_compute_type": "int8",
+    "reason": "force_device=cpu; queue pressure (depth 21) -> int8 quantization",
+    "changed": true,
+    "forced": false,
+    "previous_batch_size": 1,
+    "new_batch_size": 1,
+    "queue_depth": 21,
+    "t": 43.39
+  },
+  {
+    "timestamp": "2026-10-04T19:08:11.723653+00:00",
+    "previous_device": "cpu",
+    "previous_compute_type": "fp32",
+    "new_device": "cpu",
+    "new_compute_type": "int8",
+    "reason": "probation passed: 4.330s/clip vs 5.966s/clip in cpu/fp32",
+    "changed": false,
+    "forced": false,
+    "previous_batch_size": 1,
+    "new_batch_size": 1,
+    "queue_depth": 21,
+    "t": 53.39
+  },
+  {
+    "timestamp": "2026-10-04T19:10:22.102405+00:00",
+    "previous_device": "cpu",
+    "previous_compute_type": "int8",
+    "new_device": "cpu",
+    "new_compute_type": "fp32",
+    "reason": "force_device=cpu",
+    "changed": true,
+    "forced": false,
+    "previous_batch_size": 1,
+    "new_batch_size": 1,
+    "queue_depth": 0,
+    "t": 183.77
+  }
+]

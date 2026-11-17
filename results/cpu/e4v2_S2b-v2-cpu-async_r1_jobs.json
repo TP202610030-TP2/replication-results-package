@@ -1,0 +1,12 @@
+{
+  "submitted": 1905,
+  "accepted": 1905,
+  "acceptance_rate": 1.0,
+  "processed": 1905,
+  "failed": 0,
+  "duplicates": 0,
+  "reclaimed": 0,
+  "completion_rate": 1.0,
+  "backlog_after_drain": 123,
+  "drain_seconds_after_locust": 1803.2
+}

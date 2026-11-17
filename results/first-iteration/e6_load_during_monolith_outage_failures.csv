@@ -1,0 +1,6 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+POST,/api/v1/auth/login,RemoteDisconnected('Remote end closed connection without response'),6,2026-09-21T05:13:46Z,2026-09-21T05:13:46Z
+POST,/api/v1/transcribe,"ConnectionRefusedError(10061, '[WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.')",938,2026-09-21T05:13:51Z,2026-09-21T05:15:59Z
+POST,/api/v1/transcribe,"ConnectionResetError(10054, 'Se ha forzado la interrupción de una conexión existente por el host remoto', None, 10054, None)",14,2026-09-21T05:15:59Z,2026-09-21T05:15:59Z
+POST,/api/v1/transcribe,RemoteDisconnected('Remote end closed connection without response'),121,2026-09-21T05:13:46Z,2026-09-21T05:16:02Z
+POST,/api/v1/transcribe,"ConnectionAbortedError(10053, 'Se ha anulado una conexión establecida por el software en su equipo host', None, 10053, None)",3,2026-09-21T05:15:59Z,2026-09-21T05:15:59Z

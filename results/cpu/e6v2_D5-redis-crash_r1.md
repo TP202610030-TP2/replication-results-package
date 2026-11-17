@@ -1,0 +1,39 @@
+# E6 v2 — D5-redis-crash_r1
+
+```json
+{
+  "scenario": "D5-redis-crash_r1",
+  "container": "backend-redis-1",
+  "mode": "crash",
+  "restart_policy": "unless-stopped",
+  "load_mode": "sync",
+  "users": 10,
+  "request_scored": "/api/v1/transcribe",
+  "detection_time_s": 1.1,
+  "mttr_s": 8.74,
+  "outage_reverted_by_script_s": null,
+  "neighbour_degraded": {
+    "neighbor:http://localhost:8080/health": false,
+    "neighbor:http://localhost:8001/health": false,
+    "neighbor:http://localhost:8003/health": false,
+    "neighbor:http://localhost:8005/health": false
+  },
+  "before": {
+    "requests": 53,
+    "success_rate": 1.0
+  },
+  "during": {
+    "requests": 8,
+    "success_rate": 1.0
+  },
+  "after": {
+    "requests": 184,
+    "success_rate": 1.0
+  },
+  "overall": {
+    "requests": 245,
+    "success_rate": 1.0
+  },
+  "during_failures_by_status": {}
+}
+```

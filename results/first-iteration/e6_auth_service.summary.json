@@ -1,0 +1,16 @@
+{
+  "container": "backend-auth-service-1",
+  "target_url": "http://localhost:8001",
+  "stop_time": 1789967241.8715765,
+  "detection_time_s": 3.5387861728668213,
+  "recovery_time_s": null,
+  "requests_during_outage": 25,
+  "requests_lost": 23,
+  "pct_lost": 92.0,
+  "propagation": {
+    "http://localhost:8001/health": false,
+    "http://localhost:8004/health": false,
+    "http://localhost:8002/health": false,
+    "http://localhost:8000/health": false
+  }
+}

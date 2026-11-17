@@ -1,0 +1,16 @@
+{
+  "container": "backend-transcription-manager-1",
+  "target_url": "http://localhost:8005",
+  "stop_time": 1789967427.4181921,
+  "detection_time_s": 3.4994070529937744,
+  "recovery_time_s": null,
+  "requests_during_outage": 24,
+  "requests_lost": 22,
+  "pct_lost": 91.66666666666666,
+  "propagation": {
+    "http://localhost:8005/health": false,
+    "http://localhost:8004/health": false,
+    "http://localhost:8001/health": false,
+    "http://localhost:8000/health": false
+  }
+}

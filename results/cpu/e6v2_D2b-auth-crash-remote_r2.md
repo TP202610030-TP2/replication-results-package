@@ -1,0 +1,40 @@
+# E6 v2 — D2b-auth-crash-remote_r2
+
+```json
+{
+  "scenario": "D2b-auth-crash-remote_r2",
+  "container": "backend-auth-service-1",
+  "mode": "crash",
+  "restart_policy": "unless-stopped",
+  "load_mode": "sync",
+  "users": 10,
+  "request_scored": "/api/v1/transcribe",
+  "detection_time_s": 0.31,
+  "mttr_s": 5.42,
+  "outage_reverted_by_script_s": null,
+  "neighbour_degraded": {
+    "neighbor:http://localhost:8080/health": false,
+    "neighbor:http://localhost:8003/health": false,
+    "neighbor:http://localhost:8005/health": false
+  },
+  "before": {
+    "requests": 54,
+    "success_rate": 1.0
+  },
+  "during": {
+    "requests": 8,
+    "success_rate": 0.375
+  },
+  "after": {
+    "requests": 175,
+    "success_rate": 1.0
+  },
+  "overall": {
+    "requests": 237,
+    "success_rate": 0.9789
+  },
+  "during_failures_by_status": {
+    "502": 5
+  }
+}
+```

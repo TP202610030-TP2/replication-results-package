@@ -1,0 +1,38 @@
+# E6 v2 — D3-trans-crash_r3
+
+```json
+{
+  "scenario": "D3-trans-crash_r3",
+  "container": "backend-transcription-manager-1",
+  "mode": "crash",
+  "restart_policy": "unless-stopped",
+  "load_mode": "sync",
+  "users": 10,
+  "request_scored": "/api/v1/transcribe",
+  "detection_time_s": 2.36,
+  "mttr_s": 4.92,
+  "outage_reverted_by_script_s": null,
+  "neighbour_degraded": {
+    "neighbor:http://localhost:8080/health": false,
+    "neighbor:http://localhost:8001/health": false,
+    "neighbor:http://localhost:8003/health": false
+  },
+  "before": {
+    "requests": 54,
+    "success_rate": 1.0
+  },
+  "during": {
+    "requests": 4,
+    "success_rate": 1.0
+  },
+  "after": {
+    "requests": 189,
+    "success_rate": 1.0
+  },
+  "overall": {
+    "requests": 247,
+    "success_rate": 1.0
+  },
+  "during_failures_by_status": {}
+}
+```

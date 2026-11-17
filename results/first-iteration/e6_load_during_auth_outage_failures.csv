@@ -1,0 +1,2 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+POST,/api/v1/transcribe,HTTPError('502 Server Error: Bad Gateway for url: /api/v1/transcribe'),352,2026-09-21T05:07:25Z,2026-09-21T05:09:38Z

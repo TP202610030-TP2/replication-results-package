@@ -1,0 +1,11 @@
+# Raw outputs of the experiment scripts
+experiments/results/*
+!experiments/results/.gitkeep
+# Local test users and corpus manifests (contain corpus transcriptions)
+experiments/e4_load_test/users_*.csv
+experiments/e1_dataset_characterization/manifest*.csv
+!experiments/e1_dataset_characterization/manifest.example.csv
+# Python
+__pycache__/
+*.pyc
+.venv/

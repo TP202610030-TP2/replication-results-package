@@ -1,0 +1,16 @@
+{
+  "container": "backend-asr-service-1",
+  "target_url": "http://localhost:8004",
+  "stop_time": 1789966988.387576,
+  "detection_time_s": 3.4335079193115234,
+  "recovery_time_s": null,
+  "requests_during_outage": 26,
+  "requests_lost": 26,
+  "pct_lost": 100.0,
+  "propagation": {
+    "http://localhost:8004/health": false,
+    "http://localhost:8001/health": false,
+    "http://localhost:8002/health": false,
+    "http://localhost:8000/health": false
+  }
+}

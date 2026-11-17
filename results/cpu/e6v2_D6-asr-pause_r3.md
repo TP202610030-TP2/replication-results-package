@@ -1,0 +1,39 @@
+# E6 v2 — D6-asr-pause_r3
+
+```json
+{
+  "scenario": "D6-asr-pause_r3",
+  "container": "backend-asr-service-1",
+  "mode": "pause",
+  "restart_policy": "unless-stopped",
+  "load_mode": "sync",
+  "users": 10,
+  "request_scored": "/api/v1/transcribe",
+  "detection_time_s": 0.44,
+  "mttr_s": 59.43,
+  "outage_reverted_by_script_s": 60.12,
+  "neighbour_degraded": {
+    "neighbor:http://localhost:8080/health": false,
+    "neighbor:http://localhost:8001/health": false,
+    "neighbor:http://localhost:8003/health": false,
+    "neighbor:http://localhost:8005/health": false
+  },
+  "before": {
+    "requests": 46,
+    "success_rate": 1.0
+  },
+  "during": {
+    "requests": 0,
+    "success_rate": null
+  },
+  "after": {
+    "requests": 127,
+    "success_rate": 0.9449
+  },
+  "overall": {
+    "requests": 173,
+    "success_rate": 0.9595
+  },
+  "during_failures_by_status": {}
+}
+```

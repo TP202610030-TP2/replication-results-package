@@ -1,0 +1,36 @@
+# E6 v2 — D7-monolith-crash_r3
+
+```json
+{
+  "scenario": "D7-monolith-crash_r3",
+  "container": "backend-monolith-baseline-1",
+  "mode": "crash",
+  "restart_policy": "unless-stopped",
+  "load_mode": "sync",
+  "users": 10,
+  "request_scored": "/api/v1/transcribe",
+  "detection_time_s": 0.38,
+  "mttr_s": 5.73,
+  "outage_reverted_by_script_s": null,
+  "neighbour_degraded": {},
+  "before": {
+    "requests": 22,
+    "success_rate": 1.0
+  },
+  "during": {
+    "requests": 28,
+    "success_rate": 0.0
+  },
+  "after": {
+    "requests": 11,
+    "success_rate": 0.0909
+  },
+  "overall": {
+    "requests": 61,
+    "success_rate": 0.377
+  },
+  "during_failures_by_status": {
+    "0": 28
+  }
+}
+```

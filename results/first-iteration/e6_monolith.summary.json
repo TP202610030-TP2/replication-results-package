@@ -1,0 +1,15 @@
+{
+  "container": "backend-monolith-baseline-1",
+  "target_url": "http://localhost:8006",
+  "stop_time": 1789967623.1232836,
+  "detection_time_s": 3.6564717292785645,
+  "recovery_time_s": null,
+  "requests_during_outage": 26,
+  "requests_lost": 24,
+  "pct_lost": 92.3076923076923,
+  "propagation": {
+    "http://localhost:8006/health": false,
+    "http://localhost:8000/health": false,
+    "http://localhost:8001/health": false
+  }
+}

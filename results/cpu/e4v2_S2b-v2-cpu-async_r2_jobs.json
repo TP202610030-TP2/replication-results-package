@@ -1,0 +1,12 @@
+{
+  "submitted": 1757,
+  "accepted": 1756,
+  "acceptance_rate": 0.9994308480364257,
+  "processed": 1756,
+  "failed": 0,
+  "duplicates": 0,
+  "reclaimed": 0,
+  "completion_rate": 1.0,
+  "active_after_drain": 0,
+  "note": "recorded manually: suite stopped during a drain wait stuck on Redis' unreliable lag counter"
+}

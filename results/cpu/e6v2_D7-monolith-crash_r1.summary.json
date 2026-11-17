@@ -1,0 +1,32 @@
+{
+  "scenario": "D7-monolith-crash_r1",
+  "container": "backend-monolith-baseline-1",
+  "mode": "crash",
+  "restart_policy": "unless-stopped",
+  "load_mode": "sync",
+  "users": 10,
+  "request_scored": "/api/v1/transcribe",
+  "detection_time_s": 1.25,
+  "mttr_s": 5.12,
+  "outage_reverted_by_script_s": null,
+  "neighbour_degraded": {},
+  "before": {
+    "requests": 26,
+    "success_rate": 1.0
+  },
+  "during": {
+    "requests": 25,
+    "success_rate": 0.0
+  },
+  "after": {
+    "requests": 86,
+    "success_rate": 1.0
+  },
+  "overall": {
+    "requests": 137,
+    "success_rate": 0.8175
+  },
+  "during_failures_by_status": {
+    "0": 25
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "label": "B-cpu-adaptive-transformers_r1",
+  "burst": {
+    "start_s": 29.996837615966797,
+    "end_s": 194.62703227996826,
+    "concurrency": 24
+  },
+  "decisions_total": 3,
+  "decisions_applied": 2,
+  "applied_by_axis": {
+    "device": 0,
+    "compute_type": 2,
+    "batch_size": 0
+  },
+  "reaction_time_s": 16.82,
+  "state_at_start": {
+    "t": 0.01,
+    "device": "cpu",
+    "compute_type": "fp32",
+    "batch_size": 1,
+    "queue_depth": 0,
+    "in_flight": 0
+  },
+  "state_at_end": {
+    "t": 284.43,
+    "device": "cpu",
+    "compute_type": "fp32",
+    "batch_size": 1,
+    "queue_depth": 0,
+    "in_flight": 0
+  },
+  "reverted_after_burst": true,
+  "before_first_decision": {
+    "n": 726,
+    "req_per_s": 0.238,
+    "p50_s": 9.452
+  },
+  "after_first_decision": {
+    "n": 1527,
+    "req_per_s": 0.501,
+    "p50_s": 45.913
+  },
+  "c2_3_met": true
+}

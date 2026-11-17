@@ -1,0 +1,7 @@
+Method,Name,Error,Occurrences,First Seen,Last Seen
+POST,/api/v1/auth/login,HTTPError('502 Server Error: Bad Gateway for url: /api/v1/auth/login'),6,2026-09-21T03:51:11Z,2026-09-21T03:57:35Z
+POST,/api/v1/auth/login,HTTPError('500 Server Error: Internal Server Error for url: /api/v1/auth/login'),155,2026-09-21T03:45:00Z,2026-09-21T03:58:02Z
+POST,/api/v1/transcribe,HTTPError('500 Server Error: Internal Server Error for url: /api/v1/transcribe'),263,2026-09-21T03:48:28Z,2026-09-21T03:54:50Z
+POST,/api/v1/transcribe,HTTPError('401 Client Error: Unauthorized for url: /api/v1/transcribe'),235,2026-09-21T03:45:01Z,2026-09-21T03:58:02Z
+POST,/api/v1/transcribe,HTTPError('502 Server Error: Bad Gateway for url: /api/v1/transcribe'),1441,2026-09-21T03:47:20Z,2026-09-21T03:59:47Z
+POST,/api/v1/auth/login,HTTPError('504 Server Error: Gateway Timeout for url: /api/v1/auth/login'),1279,2026-09-21T03:51:19Z,2026-09-21T03:58:07Z
